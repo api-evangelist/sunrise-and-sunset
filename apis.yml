@@ -33,13 +33,12 @@ x-category: "Science & Math"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Science And Math
   - Public APIs
+  - Astronomy
 apis:
   - name: Sunrise and Sunset
     description: "Sunset and sunrise times for a given latitude and longitude"
     humanURL: https://sunrise-sunset.org/api
-    baseURL: https://sunrise-sunset.org/api
     tags:
       - Science And Math
     properties:
@@ -57,3 +56,5 @@ maintainers:
     email: kin@apievangelist.com
 x-parent: sunrise-sunset
 x-relationship: product
+x-tags-removed:
+- Science And Math
