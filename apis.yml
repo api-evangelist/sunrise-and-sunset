@@ -39,7 +39,8 @@ apis:
   - name: Sunrise and Sunset
     description: "Sunset and sunrise times for a given latitude and longitude"
     humanURL: https://sunrise-sunset.org/api
-    tags:
+    tags: []
+    tags_raw:
       - Science And Math
     properties:
       - type: Documentation
